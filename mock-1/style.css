@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* color: rgb(16, 83, 78) */
+body{
+    height: 100vh;
+    line-height: 1.4;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* logo */
+.logo{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+/* mid_nav */
+.middle-nav{
+   
+}
+.middle-nav ul{
+    padding-left: 20px;
+    display: flex;
+}
+.middle-nav ul li{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 45px;
+    list-style: none;
+}
+li:hover{
+    text-decoration: underline;
+}
+/* search bar */
+.search-bar{
+    /* padding: 20px; */
+}
+input{
+    padding: 5px 20px;
+    border-radius: 8px;
+}   
+#search-box{
+    padding: 10px 40px;
+    margin-right: 12px;
+} 
+#search-btn{
+    padding: 10px 30px;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(19, 96, 91);
+}
+
+
+
+.content{
+    font-size: 19px;
+    padding: 30px;
+    padding-top: 60px;
+    margin-left: 20px;
+}
+
+
+
+.container{
+    display: flex;
+    padding: 40px;
+    margin: 30px;
+}
+/* 
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* img */
+.img img{
+    width: 400px;
+    margin-left: 80px;
+}
+
+.hello{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.first{
+    word-spacing: 9px;
+}
+.first_greet{
+    font-size: 60px;
+    font-weight: bold;
+}
+.highlight{
+    font-size: 34px;
+    font-weight: bold;
+}
+.extra{
+    font-size: 24px;
+    font-weight: 600;
+}
+.contact-btn{
+    background-color:  rgb(25, 93, 88);
+    color: white;
+    padding: 10px 27px;
+    font-size: 15px;
+    border-radius: 9px;
+    transition: 0.2s ease-in-out;
+    margin-left: 80px;
+
+}
+.contact-btn:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+.contact{
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgb(16, 83, 78);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.copyright{
+    padding-right: 50px;
+}
+.icons {
+    position: absolute;
+    right: 150px;
+    padding: 20px;
+    font-size: 35px;
+}
+.icons > i{
+    padding-right: 23px;
+}
